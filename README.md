@@ -1,0 +1,2 @@
+# ConfigureResourcesOfExecutableProgram
+配置EXE可执行程序的资源
