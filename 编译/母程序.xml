@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+母程序
+</name>
+</assembly>
+<members>
+<member name="T:母程序.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:母程序.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:母程序.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:母程序.ParentProgram.WriteResource(System.String,System.Byte[],System.Int32)">
+ <summary>
+ 配置EXE子程序
+ 如果要写入 文本 请使用 System.Text.Encoding.UTF8.GetBytes() 把文本转换为字节
+ 如果要写入 文件 请使用 ReadFileToBytes() 函数把文件转换为字节
+ </summary>
+ <param name="EXEFilePath">子程序路径</param>
+ <param name="FileBytes">要写入的资源的字节</param>
+ <param name="ResID">写入的资源在子程序里的标识</param>
+ <returns>是否配置成功</returns>
+</member>
+<member name="M:母程序.ParentProgram.ReadFileToBytes(System.String)">
+ <summary>
+ 把文件读取到 Byte()
+ </summary>
+ <param name="FilePath"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

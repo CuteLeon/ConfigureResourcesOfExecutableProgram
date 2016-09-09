@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+子程序
+</name>
+</assembly>
+<members>
+<member name="T:子程序.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:子程序.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:子程序.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:子程序.ChildProgram.ConvertBytesToBitmap(System.Byte[])">
+ <summary>
+ 把 Byte() 转换为图像
+ </summary>
+ <param name="Bytes"></param>
+ <returns></returns>
+</member>
+<member name="M:子程序.ChildProgram.ReadResource(System.Int32)">
+ <summary>
+ 读取被写入的资源字节
+ 如果要读取 文本 请使用 System.Text.Encoding.UTF8.GetString() 把字节转换为文本
+ 如果要读取 文件 请使用 SaveByteToFile() 函数把文件保存至硬盘
+ 如果要读取 图像 请使用 ConvertBytesToBitmap 直接使用图像
+ </summary>
+ <param name="ResID">资源标识</param>
+ <returns></returns>
+</member>
+<member name="M:子程序.ChildProgram.SaveByteToFile(System.Byte[],System.String)">
+ <summary>
+ 把 Byte() 储存至硬盘文件
+ </summary>
+ <param name="FileByte">传入的字节</param>
+ <param name="FilePath">保存的文件路径</param>
+ <returns></returns>
+</member>
+</members>
+</doc>
