@@ -5,12 +5,12 @@
 ### 母程序： ###
 
 > __配置子程序的资源：__
-  *WriteResource(ByVal EXEFilePath As String, ByVal FileBytes As Byte(), ByVal ResID As Integer) As Boolean*
+    *WriteResource(ByVal EXEFilePath As String, ByVal FileBytes As Byte(), ByVal ResID As Integer) As Boolean*
 
   > __读取文件到字节数组：__
     *ReadFileToBytes(ByVal FilePath As String) As Byte()*
 
-  ### 子程序： ###
+### 子程序： ###
 
   > __读取子程序的资源：__
     *ReadResource(ByVal ResID As Integer) As Byte()*
