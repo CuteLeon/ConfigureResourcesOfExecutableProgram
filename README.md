@@ -20,3 +20,6 @@
 
   > __把字节数组储存至硬盘文件：__
     *SaveByteToFile(ByVal FileByte As Byte(), FilePath As String) As Boolean*
+
+### 截图
+![image](./生成/截图.png)
