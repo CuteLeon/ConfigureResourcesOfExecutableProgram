@@ -22,4 +22,4 @@
     *SaveByteToFile(ByVal FileByte As Byte(), FilePath As String) As Boolean*
 
 ### 截图
-![image](./生成/截图.png)
+![image](https://raw.github.com/CuteLeon/ConfigureResourcesOfExecutableProgram/master/生成/截图.png)
